@@ -852,11 +852,10 @@ html.remodal-is-locked {
     overflow: hidden;
     text-indent: 200%;
     white-space: nowrap;
-    background: url('../../images/bun-ken/logo_white.svg') center no-repeat;
-    background-size: 100.6667px 39.3333px;
-    width: 100.6667px;
-    height: 39.3333px;
-    margin: 0 auto;
+    background: url(../image/logo_ssh.png) center no-repeat;
+    background-size: 8vh;
+    width: 7vw;
+    height: 9vh;
 }
 
 .l-globalFooter_col {
@@ -887,7 +886,7 @@ html.remodal-is-locked {
         padding: 90px 38px 20px;
     }
     .l-globalFooter_logo {
-        background: url('../../images/bun-ken/logo_white.svg') center no-repeat;
+        background: url("../../images/bun-ken/logo_white.svg") center no-repeat;
         background-size: 151px 59px;
         width: 151px;
         height: 59px;
@@ -929,10 +928,10 @@ html.remodal-is-locked {
     overflow: hidden;
     text-indent: 200%;
     white-space: nowrap;
-    background: url('../../images/bun-ken/logo_blue.svg') center no-repeat;
-    background-size: 60.4px 23.6px;
-    width: 60.4px;
-    height: 23.6px;
+    background: url(../image/logo_ssh.png) center no-repeat;
+    background-size: 6vh;
+    width: 7vw;
+    height: 9vh;
 }
 
 .l-globalHeader_login {
@@ -1001,17 +1000,17 @@ html.remodal-is-locked {
 
 @media (min-width: 768px) {
     .l-globalHeader {
-        height: 60px;
+        height: 70px;
     }
     .l-globalHeader_logo {
         margin-right: auto;
         padding-left: 22px;
     }
     .l-globalHeader_logo a {
-        background: url('../../images/bun-ken/logo_blue.svg') center no-repeat;
-        background-size: 86.2857px 33.7143px;
-        width: 86.2857px;
-        height: 33.7143px;
+        background: url(../image/logo_ssh.png) no-repeat;
+        background-size: 8vh;
+        width: 100px;
+        height: 11vh;
     }
     .l-globalHeader_login {
         display: -webkit-box;
@@ -1083,7 +1082,7 @@ html.remodal-is-locked {
 
 @media (min-width: 920px) {
     .l-globalHeader {
-        height: 80px;
+        height: 90px;
     }
     .l-globalHeader.is-scrolled {
         height: 60px;
@@ -1175,7 +1174,7 @@ html.remodal-is-locked {
 .c-blank:after {
     content: "";
     display: inline-block;
-    background: url('../../images/bun-ken/icon_blank_linkcolor.svg') center no-repeat;
+    background: url("../../images/bun-ken/icon_blank_linkcolor.svg") center no-repeat;
     background-size: contain;
     width: 0.8em;
     height: 0.8em;
@@ -1358,6 +1357,7 @@ html.remodal-is-locked {
 .c-btn span {
     position: relative;
     z-index: 1;
+    -webkit-font-feature-settings: "palt";
     font-feature-settings: "palt";
 }
 
@@ -1382,7 +1382,7 @@ html.remodal-is-locked {
     content: "";
     display: block;
     right: 30px;
-    background: url('../../images/bun-ken/arrow_btn_right_white.svg') center no-repeat;
+    background: url("../../images/bun-ken/arrow_btn_right_white.svg") center no-repeat;
     background-size: contain;
     width: 8px;
     height: 10px;
@@ -1400,7 +1400,7 @@ html.remodal-is-locked {
 .c-btn.has-arrow-large-down:after {
     content: "";
     display: block;
-    background: url('../../images/bun-ken/arrow_large_down.svg') center no-repeat;
+    background: url("../../images/bun-ken/arrow_large_down.svg") center no-repeat;
     background-size: 12px 14.6667px;
     width: 12px;
     height: 14.6667px;
@@ -1423,7 +1423,7 @@ html.remodal-is-locked {
     right: 30px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    background: url('../../images/bun-ken/icon_plus.png') center no-repeat;
+    background: url("../../images/bun-ken/icon_plus.png") center no-repeat;
     background-size: 10px 10px;
     width: 10px;
     height: 10px;
@@ -1439,7 +1439,7 @@ html.remodal-is-locked {
     right: 30px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    background: url('../../images/bun-ken/icon_minus.png') center no-repeat;
+    background: url("../../images/bun-ken/icon_minus.png") center no-repeat;
     background-size: 10px 10px;
     width: 10px;
     height: 10px;
@@ -1474,7 +1474,7 @@ html.remodal-is-locked {
 }
 
 .c-btn.mod-white.has-arrow:after {
-    background: url('../../images/bun-ken/arrow_btn_right_blue.svg') center no-repeat;
+    background: url("../../images/bun-ken/arrow_btn_right_blue.svg") center no-repeat;
     background-size: contain;
 }
 
@@ -1531,7 +1531,7 @@ html.remodal-is-locked {
         right: 15px;
     }
     .c-btn.has-arrow-large-down:hover:after {
-        background: url('../../images/bun-ken/arrow_large_down_blue.svg') center no-repeat;
+        background: url("../../images/bun-ken/arrow_large_down_blue.svg") center no-repeat;
         background-size: 12px 14.6667px;
         width: 12px;
         height: 14.6667px;
@@ -1541,7 +1541,7 @@ html.remodal-is-locked {
         color: #002286;
     }
     .c-btn.mod-blue:hover.has-arrow:after {
-        background: url('../../images/bun-ken/arrow_btn_right_blue.svg') center no-repeat;
+        background: url("../../images/bun-ken/arrow_btn_right_blue.svg") center no-repeat;
         background-size: contain;
     }
     .c-btn.mod-white:hover {
@@ -1549,7 +1549,7 @@ html.remodal-is-locked {
     }
     .c-btn.mod-white:hover.has-arrow:after {
         border-color: #ffffff;
-        background: url('../../images/bun-ken/arrow_btn_right_white.svg') center no-repeat;
+        background: url("../../images/bun-ken/arrow_btn_right_white.svg") center no-repeat;
         background-size: contain;
     }
     .c-btn.mod-black {
@@ -1588,7 +1588,7 @@ html.remodal-is-locked {
 .c-checkList_item:before {
     content: "";
     display: block;
-    background: url('../../images/bun-ken/mark_check_black.svg') center no-repeat;
+    background: url("../../images/bun-ken/mark_check_black.svg") center no-repeat;
     background-size: 19.5px 12.5px;
     width: 19.5px;
     height: 12.5px;
@@ -1602,28 +1602,28 @@ html.remodal-is-locked {
 }
 
 .c-checkList_item.mod-red:before {
-    background: url('../../images/bun-ken/arrow_check_red.png') center no-repeat;
+    background: url("../../images/bun-ken/arrow_check_red.png") center no-repeat;
     background-size: 17.3333px 12px;
     width: 17.3333px;
     height: 12px;
 }
 
 .c-checkList_item.mod-blue:before {
-    background: url('../../images/bun-ken/arrow_check_blue.png') center no-repeat;
+    background: url("../../images/bun-ken/arrow_check_blue.png") center no-repeat;
     background-size: 17.3333px 12px;
     width: 17.3333px;
     height: 12px;
 }
 
 .c-checkList_item.mod-gold:before {
-    background: url('../../images/bun-ken/mark_check_gold.svg') center no-repeat;
+    background: url("../../images/bun-ken/mark_check_gold.svg") center no-repeat;
     background-size: 19.5px 12.5px;
     width: 19.5px;
     height: 12.5px;
 }
 
 .c-checkList_item.mod-circle-blue:before {
-    background: url('../../images/bun-ken/mark_circle_blue.svg') center no-repeat;
+    background: url("../../images/bun-ken/mark_circle_blue.svg") center no-repeat;
     background-size: 18px 18px;
     width: 18px;
     height: 18px;
@@ -1631,7 +1631,7 @@ html.remodal-is-locked {
 }
 
 .c-checkList_item.mod-cross-red:before {
-    background: url('../../images/bun-ken/mark_cross_red.svg') center no-repeat;
+    background: url("../../images/bun-ken/mark_cross_red.svg") center no-repeat;
     background-size: 18px 18px;
     width: 18px;
     height: 18px;
@@ -1658,7 +1658,7 @@ html.remodal-is-locked {
     .c-checkList_item:before {
         content: "";
         display: block;
-        background: url('../../images/bun-ken/mark_check_black.svg') center no-repeat;
+        background: url("../../images/bun-ken/mark_check_black.svg") center no-repeat;
         background-size: 26px 16.6667px;
         width: 26px;
         height: 16.6667px;
@@ -1670,31 +1670,31 @@ html.remodal-is-locked {
         margin-top: 1em;
     }
     .c-checkList_item.mod-red:before {
-        background: url('../../images/bun-ken/arrow_check_red.png') center no-repeat;
+        background: url("../../images/bun-ken/arrow_check_red.png") center no-repeat;
         background-size: 26px 18px;
         width: 26px;
         height: 18px;
     }
     .c-checkList_item.mod-blue:before {
-        background: url('../../images/bun-ken/arrow_check_blue.png') center no-repeat;
+        background: url("../../images/bun-ken/arrow_check_blue.png") center no-repeat;
         background-size: 26px 18px;
         width: 26px;
         height: 18px;
     }
     .c-checkList_item.mod-gold:before {
-        background: url('../../images/bun-ken/mark_check_gold.svg') center no-repeat;
+        background: url("../../images/bun-ken/mark_check_gold.svg") center no-repeat;
         background-size: 26px 16.6667px;
         width: 26px;
         height: 16.6667px;
     }
     .c-checkList_item.mod-circle-blue:before {
-        background: url('../../images/bun-ken/mark_circle_blue.svg') center no-repeat;
+        background: url("../../images/bun-ken/mark_circle_blue.svg") center no-repeat;
         background-size: 24px 24px;
         width: 24px;
         height: 24px;
     }
     .c-checkList_item.mod-cross-red:before {
-        background: url('../../images/bun-ken/mark_cross_red.svg') center no-repeat;
+        background: url("../../images/bun-ken/mark_cross_red.svg") center no-repeat;
         background-size: 24px 24px;
         width: 24px;
         height: 24px;
@@ -1769,7 +1769,7 @@ html.remodal-is-locked {
 }
 
 .c-movieBtn_play {
-    background: url('../../images/bun-ken/btn_play.png') center no-repeat;
+    background: url("../../images/bun-ken/btn_play.png") center no-repeat;
     background-size: 106px 106px;
     width: 106px;
     height: 106px;
@@ -1792,7 +1792,7 @@ html.remodal-is-locked {
         line-height: 1;
     }
     .c-movieBtn_play {
-        background: url('../../images/bun-ken/btn_play.png') center no-repeat;
+        background: url("../../images/bun-ken/btn_play.png") center no-repeat;
         background-size: 106px 106px;
         width: 106px;
         height: 106px;
@@ -1953,7 +1953,7 @@ html.remodal-is-locked {
 .c-totop a:after {
     content: "";
     display: block;
-    background: url('../../images/bun-ken/arrow_down.svg') center no-repeat;
+    background: url("../../images/bun-ken/arrow_down.svg") center no-repeat;
     background-size: 18px 10px;
     width: 18px;
     height: 10px;
@@ -2281,7 +2281,7 @@ html.remodal-is-locked {
 .p-card_anchor:after {
     content: "";
     display: block;
-    background: url('../../images/bun-ken/arrow_down_gold.svg') center no-repeat;
+    background: url("../../images/bun-ken/arrow_down_gold.svg") center no-repeat;
     background-size: 36px 20px;
     width: 36px;
     height: 20px;
@@ -2306,6 +2306,7 @@ html.remodal-is-locked {
     font-weight: 600;
     line-height: 1.30435;
     letter-spacing: 0;
+    -webkit-font-feature-settings: "palt";
     font-feature-settings: "palt";
 }
 
@@ -2328,7 +2329,7 @@ html.remodal-is-locked {
     .p-card_anchor:after {
         content: "";
         display: block;
-        background: url('../../images/bun-ken/arrow_down_gold.svg') center no-repeat;
+        background: url("../../images/bun-ken/arrow_down_gold.svg") center no-repeat;
         background-size: 18px 10px;
         width: 18px;
         height: 10px;
@@ -2378,7 +2379,7 @@ html.remodal-is-locked {
     }
     .p-card:hover .p-card_anchor:after {
         color: #ffffff;
-        background: url('../../images/bun-ken/arrow_down.svg') center no-repeat;
+        background: url("../../images/bun-ken/arrow_down.svg") center no-repeat;
         background-size: 18px 10px;
         width: 18px;
         height: 10px;
@@ -2396,12 +2397,14 @@ html.remodal-is-locked {
     .p-card_subtitle {
         font-size: 13px;
         line-height: 1.5;
+        -webkit-font-feature-settings: "palt";
         font-feature-settings: "palt";
         letter-spacing: 0.01em;
     }
     .p-card_title {
         font-size: 22px;
         line-height: 1.4;
+        -webkit-font-feature-settings: "palt";
         font-feature-settings: "palt";
         letter-spacing: 0.05em;
     }
@@ -2425,7 +2428,7 @@ html.remodal-is-locked {
     .p-card_anchor:after {
         content: "";
         display: block;
-        background: url('../../images/bun-ken/arrow_down_gold.svg') center no-repeat;
+        background: url("../../images/bun-ken/arrow_down_gold.svg") center no-repeat;
         background-size: 18px 10px;
         width: 18px;
         height: 10px;
@@ -2557,7 +2560,7 @@ html.remodal-is-locked {
 .p-checkpoint_engTitle:before {
     content: "";
     display: inline-block;
-    background: url('../../images/bun-ken/mark_leaf_gold.svg') center no-repeat;
+    background: url("../../images/bun-ken/mark_leaf_gold.svg") center no-repeat;
     background-size: 16.4px 23.6px;
     width: 16.4px;
     height: 23.6px;
@@ -2572,6 +2575,7 @@ html.remodal-is-locked {
     line-height: 1.41176;
     font-weight: 600;
     margin-top: 13px;
+    -webkit-font-feature-settings: "palt";
     font-feature-settings: "palt";
 }
 
@@ -2579,6 +2583,7 @@ html.remodal-is-locked {
     padding-top: 10px;
     font-size: 0.7em;
     line-height: 1.4;
+    -webkit-font-feature-settings: "palt";
     font-feature-settings: "palt";
 }
 
@@ -3029,12 +3034,12 @@ html.remodal-is-locked {
 }
 
 .p-dividerImg.mod-hero01 {
-    background: url('../../images/bun-ken/hero_section01_sp.jpg') center no-repeat;
+    background: url("../../images/bun-ken/hero_section01_sp.jpg") center no-repeat;
     background-size: cover;
 }
 
 .p-dividerImg.mod-hero05 {
-    background: url('../../images/bun-ken/hero_section05_sp.jpg') center no-repeat;
+    background: url("../../images/bun-ken/hero_section05_sp.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -3050,8 +3055,7 @@ html.remodal-is-locked {
     display: block;
     width: 100%;
     height: 100%;
-    background: #000000;
-    opacity: 0.2;
+    background-image: url(../image/landing-bg.png), linear-gradient(44deg, #009eb3 0%, #018c9f 100%) !important;
     z-index: 1;
 }
 
@@ -3086,11 +3090,11 @@ html.remodal-is-locked {
         height: 312px;
     }
     .p-dividerImg.mod-hero01 {
-        background: url('../../images/bun-ken/hero_section01.jpg') center no-repeat;
+        background: url("../../images/bun-ken/hero_section01.jpg") center no-repeat;
         background-size: cover;
     }
     .p-dividerImg.mod-hero05 {
-        background: url('../../images/bun-ken/hero_section05.jpg') center no-repeat;
+        background: url("../../images/bun-ken/hero_section05.jpg") center no-repeat;
         background-size: cover;
     }
     .p-dividerImg_text {
@@ -3151,14 +3155,28 @@ html.remodal-is-locked {
 }
 
 .p-dividerMv_inner_maintenance .loader {
+    -webkit-animation: rotation 1s linear infinite;
     animation: rotation 1s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes rotation {
     0% {
+        -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
     100% {
+        -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
 }
@@ -3176,7 +3194,6 @@ html.remodal-is-locked {
 
 .p-dividerMv_inner_maintenance a:hover {
     text-decoration: underline;
-    ;
 }
 
 .p-sectionHome.mod-05 .c-checkList_item.mod-large {
@@ -3317,6 +3334,7 @@ html.remodal-is-locked {
     flex-wrap: wrap;
     width: 100%;
     font-size: 12px;
+    -webkit-font-feature-settings: "palt";
     font-feature-settings: "palt";
     letter-spacing: 0.02em;
 }
@@ -3371,6 +3389,8 @@ html.remodal-is-locked {
 
 @media (min-width: 920px) {
     .interviewlist .p-entryList {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
         justify-content: flex-start;
     }
     .interviewlist .p-entryList .p-entryList_item {
@@ -3401,6 +3421,8 @@ html.remodal-is-locked {
         margin-right: 2.5%;
     }
     .interviews_btm .p-entryList {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
     }
     .interviews_btm .p-entryList .u-slidein-elem:nth-child(1),
@@ -3459,7 +3481,7 @@ html.remodal-is-locked {
     content: "";
     display: block;
     position: absolute;
-    background: url('../../images/bun-ken/icon_plus_black.png') center no-repeat;
+    background: url("../../images/bun-ken/icon_plus_black.png") center no-repeat;
     background-size: 18px 18px;
     width: 18px;
     height: 18px;
@@ -3470,7 +3492,7 @@ html.remodal-is-locked {
 }
 
 .p-faqList_q.is-active:after {
-    background: url('../../images/bun-ken/icon_minus_black.png') center no-repeat;
+    background: url("../../images/bun-ken/icon_minus_black.png") center no-repeat;
     background-size: 18px 18px;
     width: 18px;
     height: 18px;
@@ -3569,7 +3591,7 @@ html.remodal-is-locked {
         line-height: 1;
     }
     .p-faqList_q:after {
-        background: url('../../images/bun-ken/icon_plus_black.png') center no-repeat;
+        background: url("../../images/bun-ken/icon_plus_black.png") center no-repeat;
         background-size: 18px 18px;
         width: 18px;
         height: 18px;
@@ -3579,7 +3601,7 @@ html.remodal-is-locked {
         transform: translate(0%, 0%);
     }
     .p-faqList_q.is-active:after {
-        background: url('../../images/bun-ken/icon_minus_black.png') center no-repeat;
+        background: url("../../images/bun-ken/icon_minus_black.png") center no-repeat;
         background-size: 18px 18px;
         width: 18px;
         height: 18px;
@@ -3683,6 +3705,7 @@ html.remodal-is-locked {
     letter-spacing: 0.1em;
     line-height: 1.59091;
     margin-top: 0.4em;
+    -webkit-font-feature-settings: "palt";
     font-feature-settings: "palt";
 }
 
@@ -3693,6 +3716,7 @@ html.remodal-is-locked {
 .p-flow_text {
     font-size: 15px;
     font-size: 0.9375rem;
+    -webkit-font-feature-settings: "palt";
     font-feature-settings: "palt";
     letter-spacing: 0.1em;
     margin-top: 1.2em;
@@ -3880,12 +3904,6 @@ html.remodal-is-locked {
     font-size: 0.875rem;
 }
 
-.p-form_input::-moz-placeholder,
-.p-form_textarea::-moz-placeholder {
-    font-size: 14px;
-    font-size: 0.875rem;
-}
-
 .p-form_input:-ms-input-placeholder,
 .p-form_textarea:-ms-input-placeholder {
     font-size: 14px;
@@ -3924,11 +3942,6 @@ html.remodal-is-locked {
 
 .p-form input::-webkit-input-placeholder,
 .p-form textarea::-webkit-input-placeholder {
-    color: #bbb;
-}
-
-.p-form input::-moz-placeholder,
-.p-form textarea::-moz-placeholder {
     color: #bbb;
 }
 
@@ -4428,6 +4441,7 @@ p+.p-form_btn {
     text-align: center;
     font-size: 15px;
     margin-top: 0.6em;
+    -webkit-font-feature-settings: "palt";
     font-feature-settings: "palt";
     letter-spacing: 0.12em;
 }
@@ -5387,7 +5401,7 @@ p+.p-form_btn {
 }
 
 .p-mvHome {
-    background: url('../../images/bun-ken/mv_home_sp.jpg') center no-repeat;
+    background: url("../../images/bun-ken/mv_home_sp.jpg") center no-repeat;
     background-size: cover;
     height: 560px;
     opacity: 0;
@@ -5504,7 +5518,7 @@ p+.p-form_btn {
         position: relative;
         width: 100vw;
         height: 650px;
-        background: url('../../images/bun-ken/mv_home.jpg') center no-repeat;
+        background: url("../../images/bun-ken/mv_home.jpg") center no-repeat;
         background-size: cover;
     }
     .p-mvHome_elements {
@@ -5517,7 +5531,7 @@ p+.p-form_btn {
         padding: 0 20px;
     }
     .p-mvHome_copy {
-        background: url('../../images/bun-ken/mv_copy.png') center no-repeat;
+        background: url("../../images/bun-ken/mv_copy.png") center no-repeat;
         background-size: 377px auto;
         width: 378px;
         height: 180px;
@@ -5555,7 +5569,7 @@ p+.p-form_btn {
     .p-mvHome_image {
         position: static;
         margin-top: 30px;
-        background: url('../../images/bun-ken/mv_pc.png') center no-repeat;
+        background: url("../../images/bun-ken/mv_pc.png") center no-repeat;
         background-size: auto 160px;
         width: 378px;
         height: 170px;
@@ -5586,7 +5600,7 @@ p+.p-form_btn {
         position: relative;
         width: 100vw;
         height: 780px;
-        background: url('../../images/bun-ken/mv_home.jpg') center no-repeat;
+        background: url("../../images/bun-ken/mv_home.jpg") center no-repeat;
         background-size: cover;
     }
     .p-mvHome_elements {
@@ -5599,7 +5613,7 @@ p+.p-form_btn {
         padding: 0 20px;
     }
     .p-mvHome_copy {
-        background: url('../../images/bun-ken/mv_copy.png') center no-repeat;
+        background: url("../../images/bun-ken/mv_copy.png") center no-repeat;
         background-size: 377px auto;
         width: 378px;
         height: 180px;
@@ -5637,7 +5651,7 @@ p+.p-form_btn {
     .p-mvHome_image {
         position: static;
         margin-top: 50px;
-        background: url('../../images/bun-ken/mv_pc.png') center no-repeat;
+        background: url("../../images/bun-ken/mv_pc.png") center no-repeat;
         background-size: 377px auto;
         width: 377px;
         height: 234px;
@@ -6289,7 +6303,6 @@ p+.p-form_btn {
     .mod-security .security-excuse {
         padding: 20px;
     }
-    .mod-security .security-excuse p {}
     .mod-security .security-excuse p.security-excuse-title {
         font-size: 15px;
     }
@@ -6594,7 +6607,7 @@ p+.p-form_btn {
     content: "";
     display: block;
     position: absolute;
-    background: url('../../images/bun-ken/arrow_flow.png') center no-repeat;
+    background: url("../../images/bun-ken/arrow_flow.png") center no-repeat;
     background-size: 41px 10.5px;
     width: 41px;
     height: 10.5px;
@@ -6615,7 +6628,7 @@ p+.p-form_btn {
     content: "";
     display: block;
     position: absolute;
-    background: url('../../images/bun-ken/ill_section01_01.png') center no-repeat;
+    background: url("../../images/bun-ken/ill_section01_01.png") center no-repeat;
     background-size: contain;
     width: 50%;
     height: 44.2%;
@@ -6629,7 +6642,7 @@ p+.p-form_btn {
     content: "";
     display: block;
     position: absolute;
-    background: url('../../images/bun-ken/ill_section01_02.png') center no-repeat;
+    background: url("../../images/bun-ken/ill_section01_02.png") center no-repeat;
     background-size: contain;
     width: 25%;
     height: 32%;
@@ -6643,7 +6656,7 @@ p+.p-form_btn {
     content: "";
     display: block;
     position: absolute;
-    background: url('../../images/bun-ken/ill_section01_03.png') center no-repeat;
+    background: url("../../images/bun-ken/ill_section01_03.png") center no-repeat;
     background-size: contain;
     width: 17%;
     height: 22%;
@@ -6740,7 +6753,7 @@ p+.p-form_btn {
         content: "";
         display: block;
         position: absolute;
-        background: url('../../images/bun-ken/arrow_flow.png') center no-repeat;
+        background: url("../../images/bun-ken/arrow_flow.png") center no-repeat;
         background-size: 41px 10.5px;
         width: 41px;
         height: 10.5px;
@@ -6759,7 +6772,7 @@ p+.p-form_btn {
         height: auto;
     }
     .p-roundThumbs_image.has-ill-01:after {
-        background: url('../../images/bun-ken/ill_section01_01.png') center no-repeat;
+        background: url("../../images/bun-ken/ill_section01_01.png") center no-repeat;
         background-size: 111px 96px;
         width: 111px;
         height: 96px;
@@ -6769,7 +6782,7 @@ p+.p-form_btn {
         transform: translate(20px, 0);
     }
     .p-roundThumbs_image.has-ill-02:after {
-        background: url('../../images/bun-ken/ill_section01_02.png') center no-repeat;
+        background: url("../../images/bun-ken/ill_section01_02.png") center no-repeat;
         background-size: 56px 70px;
         width: 56px;
         height: 70px;
@@ -6779,7 +6792,7 @@ p+.p-form_btn {
         transform: translate(-60px, 0);
     }
     .p-roundThumbs_image.has-ill-03:after {
-        background: url('../../images/bun-ken/ill_section01_03.png') center no-repeat;
+        background: url("../../images/bun-ken/ill_section01_03.png") center no-repeat;
         background-size: 38px 46px;
         width: 38px;
         height: 46px;
@@ -6827,7 +6840,7 @@ p+.p-form_btn {
         letter-spacing: 0;
     }
     .p-roundThumbs_item.has-arrow:after {
-        background: url('../../images/bun-ken/arrow_flow.png') center no-repeat;
+        background: url("../../images/bun-ken/arrow_flow.png") center no-repeat;
         background-size: 52px auto;
         width: 82px;
         height: 21px;
@@ -6848,7 +6861,7 @@ p+.p-form_btn {
 .p-sectionHome.mod-12:after {
     content: "";
     display: block;
-    background: url('../../images/bun-ken/bg_wish_05.jpg') center bottom no-repeat;
+    background: url("../../images/bun-ken/bg_wish_05.jpg") center bottom no-repeat;
     background-size: cover;
     width: 100vw;
     height: 26%;
@@ -6860,7 +6873,7 @@ p+.p-form_btn {
 .p-sectionHome.mod-15 {
     position: relative;
     z-index: 1;
-    background: url('../../images/bun-ken/bg_photo_kotonoha_sp.jpg') #7eaec1 center bottom no-repeat;
+    background: url("../../images/bun-ken/bg_photo_kotonoha_sp.jpg") #7eaec1 center bottom no-repeat;
     background-size: 100% auto;
 }
 
@@ -6878,7 +6891,7 @@ p+.p-form_btn {
         height: 35%;
     }
     .p-sectionHome.mod-15 {
-        background: url('../../images/bun-ken/bg_photo_kotonoha.jpg') #7eaec1 center bottom no-repeat;
+        background: url("../../images/bun-ken/bg_photo_kotonoha.jpg") #7eaec1 center bottom no-repeat;
         background-size: cover;
     }
 }
@@ -6904,28 +6917,28 @@ p+.p-form_btn {
 }
 
 .p-share_icon.mod-twitter {
-    background: url('../../images/bun-ken/icon_share_twitter.png') center no-repeat;
+    background: url("../../images/bun-ken/icon_share_twitter.png") center no-repeat;
     background-size: 44px 44px;
     width: 44px;
     height: 44px;
 }
 
 .p-share_icon.mod-facebook {
-    background: url('../../images/bun-ken/icon_share_facebook.png') center no-repeat;
+    background: url("../../images/bun-ken/icon_share_facebook.png") center no-repeat;
     background-size: 44px 44px;
     width: 44px;
     height: 44px;
 }
 
 .p-share_icon.mod-hatenab {
-    background: url('../../images/bun-ken/icon_share_hatenab.png') center no-repeat;
+    background: url("../../images/bun-ken/icon_share_hatenab.png") center no-repeat;
     background-size: 44px 44px;
     width: 44px;
     height: 44px;
 }
 
 .p-share_icon.mod-line {
-    background: url('../../images/bun-ken/icon_share_line.png') center no-repeat;
+    background: url("../../images/bun-ken/icon_share_line.png") center no-repeat;
     background-size: 44px 44px;
     width: 44px;
     height: 44px;
@@ -6962,7 +6975,7 @@ p+.p-form_btn {
     overflow: hidden;
     text-indent: 200%;
     white-space: nowrap;
-    background: url('../../images/bun-ken/icon_twitter.png') center no-repeat;
+    background: url("../../images/bun-ken/icon_twitter.png") center no-repeat;
     background-size: 30px 24px;
     width: 30px;
     height: 24px;
@@ -6973,7 +6986,7 @@ p+.p-form_btn {
     overflow: hidden;
     text-indent: 200%;
     white-space: nowrap;
-    background: url('../../images/bun-ken/icon_facebook.png') center no-repeat;
+    background: url("../../images/bun-ken/icon_facebook.png") center no-repeat;
     background-size: 34px 34px;
     width: 34px;
     height: 34px;
@@ -6984,7 +6997,7 @@ p+.p-form_btn {
     overflow: hidden;
     text-indent: 200%;
     white-space: nowrap;
-    background: url('../../images/bun-ken/icon_instagram.png') center no-repeat;
+    background: url("../../images/bun-ken/icon_instagram.png") center no-repeat;
     background-size: 33px 33px;
     width: 33px;
     height: 33px;
@@ -7597,7 +7610,7 @@ p+.p-form_btn {
 .p-voiceList_item:nth-of-type(odd):after {
     content: "";
     display: block;
-    background: url('../../images/bun-ken/fukidashi_left.png') center no-repeat;
+    background: url("../../images/bun-ken/fukidashi_left.png") center no-repeat;
     background-size: 20px 16px;
     width: 20px;
     height: 16px;
@@ -7611,7 +7624,7 @@ p+.p-form_btn {
 .p-voiceList_item:nth-of-type(even):after {
     content: "";
     display: block;
-    background: url('../../images/bun-ken/fukidashi_right.png') center no-repeat;
+    background: url("../../images/bun-ken/fukidashi_right.png") center no-repeat;
     background-size: 20px 20px;
     width: 20px;
     height: 20px;
@@ -7740,7 +7753,7 @@ p+.p-form_btn {
     transform: rotate(0) translateX(-50%);
     background-size: cover;
     background-position: center top;
-    background-image: url('../../images/bun-ken/bg_wish_01.jpg');
+    background-image: url("../../images/bun-ken/bg_wish_01.jpg");
 }
 
 .p-wishBg.mod-01:before {
@@ -7752,7 +7765,7 @@ p+.p-form_btn {
 }
 
 .p-wishBg.mod-02:before {
-    background-image: url('../../images/bun-ken/bg_wish_02.jpg');
+    background-image: url("../../images/bun-ken/bg_wish_02.jpg");
 }
 
 .p-wishBg.mod-03 {
@@ -7760,7 +7773,7 @@ p+.p-form_btn {
 }
 
 .p-wishBg.mod-03:before {
-    background-image: url('../../images/bun-ken/bg_wish_03.jpg');
+    background-image: url("../../images/bun-ken/bg_wish_03.jpg");
 }
 
 .p-wishBg.mod-04 {
@@ -7768,7 +7781,7 @@ p+.p-form_btn {
 }
 
 .p-wishBg.mod-04:before {
-    background-image: url('../../images/bun-ken/bg_wish_04.jpg');
+    background-image: url("../../images/bun-ken/bg_wish_04.jpg");
 }
 
 @media (min-width: 480px) {
@@ -9959,3 +9972,6 @@ p+.p-form_btn {
 /*---------------------------------------------------------------------
   generated by Keni Template Maker Ver.8.0 on 2019-07-10 16:24:30
 ----------------------------------------------------------------------*/
+
+
+/*# sourceMappingURL=OneStyle.css.map */

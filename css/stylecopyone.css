@@ -790,11 +790,10 @@ html.remodal-is-locked {
   overflow: hidden;
   text-indent: 200%;
   white-space: nowrap;
-  background: url("../../images/bun-ken/logo_white.svg") center no-repeat;
-  background-size: 100.6667px 39.3333px;
-  width: 100.6667px;
-  height: 39.3333px;
-  margin: 0 auto;
+  background: url(../image/logo_ssh.png) center no-repeat;
+  background-size: 8vh;
+  width: 7vw;
+  height: 9vh;
 }
 
 .l-globalFooter_col {
@@ -867,10 +866,10 @@ html.remodal-is-locked {
   overflow: hidden;
   text-indent: 200%;
   white-space: nowrap;
-  background: url("../../images/bun-ken/logo_blue.svg") center no-repeat;
-  background-size: 60.4px 23.6px;
-  width: 60.4px;
-  height: 23.6px;
+  background: url(../image/logo_ssh.png) center no-repeat;
+  background-size: 6vh;
+  width: 7vw;
+  height: 9vh;
 }
 
 .l-globalHeader_login {
@@ -939,17 +938,17 @@ html.remodal-is-locked {
 
 @media (min-width: 768px) {
   .l-globalHeader {
-    height: 60px;
+    height: 70px;
   }
   .l-globalHeader_logo {
     margin-right: auto;
     padding-left: 22px;
   }
   .l-globalHeader_logo a {
-    background: url("../../images/bun-ken/logo_blue.svg") center no-repeat;
-    background-size: 86.2857px 33.7143px;
-    width: 86.2857px;
-    height: 33.7143px;
+    background: url(../image/logo_ssh.png) no-repeat;
+    background-size: 8vh;
+    width: 100px;
+    height: 11vh;
   }
   .l-globalHeader_login {
     display: -webkit-box;
@@ -1021,7 +1020,7 @@ html.remodal-is-locked {
 
 @media (min-width: 920px) {
   .l-globalHeader {
-    height: 80px;
+    height: 90px;
   }
   .l-globalHeader.is-scrolled {
     height: 60px;
@@ -1297,7 +1296,7 @@ html.remodal-is-locked {
   position: relative;
   z-index: 1;
   -webkit-font-feature-settings: "palt";
-          font-feature-settings: "palt";
+  font-feature-settings: "palt";
 }
 
 .c-btn:before {
@@ -2246,7 +2245,7 @@ html.remodal-is-locked {
   line-height: 1.30435;
   letter-spacing: 0;
   -webkit-font-feature-settings: "palt";
-          font-feature-settings: "palt";
+  font-feature-settings: "palt";
 }
 
 @media (min-width: 480px) {
@@ -2337,14 +2336,14 @@ html.remodal-is-locked {
     font-size: 13px;
     line-height: 1.5;
     -webkit-font-feature-settings: "palt";
-            font-feature-settings: "palt";
+    font-feature-settings: "palt";
     letter-spacing: 0.01em;
   }
   .p-card_title {
     font-size: 22px;
     line-height: 1.4;
     -webkit-font-feature-settings: "palt";
-            font-feature-settings: "palt";
+    font-feature-settings: "palt";
     letter-spacing: 0.05em;
   }
   .p-card_text {
@@ -2515,7 +2514,7 @@ html.remodal-is-locked {
   font-weight: 600;
   margin-top: 13px;
   -webkit-font-feature-settings: "palt";
-          font-feature-settings: "palt";
+  font-feature-settings: "palt";
 }
 
 .p-checkpoint_titleSub {
@@ -2523,7 +2522,7 @@ html.remodal-is-locked {
   font-size: 0.7em;
   line-height: 1.4;
   -webkit-font-feature-settings: "palt";
-          font-feature-settings: "palt";
+  font-feature-settings: "palt";
 }
 
 .p-checkpoint_text {
@@ -2994,8 +2993,7 @@ html.remodal-is-locked {
   display: block;
   width: 100%;
   height: 100%;
-  background: #000000;
-  opacity: 0.2;
+  background-image: url(../image/landing-bg.png), linear-gradient(44deg, #009eb3 0%, #018c9f 100%) !important;
   z-index: 1;
 }
 
@@ -3096,28 +3094,28 @@ html.remodal-is-locked {
 
 .p-dividerMv_inner_maintenance .loader {
   -webkit-animation: rotation 1s linear infinite;
-          animation: rotation 1s linear infinite;
+  animation: rotation 1s linear infinite;
 }
 
 @-webkit-keyframes rotation {
   0% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes rotation {
   0% {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -3275,7 +3273,7 @@ html.remodal-is-locked {
   width: 100%;
   font-size: 12px;
   -webkit-font-feature-settings: "palt";
-          font-feature-settings: "palt";
+  font-feature-settings: "palt";
   letter-spacing: 0.02em;
 }
 
@@ -3330,8 +3328,8 @@ html.remodal-is-locked {
 @media (min-width: 920px) {
   .interviewlist .p-entryList {
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
   .interviewlist .p-entryList .p-entryList_item {
     width: 31.5%;
@@ -3362,8 +3360,8 @@ html.remodal-is-locked {
   }
   .interviews_btm .p-entryList {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .interviews_btm .p-entryList .u-slidein-elem:nth-child(1),
   .interviews_btm .p-entryList .u-slidein-elem:nth-child(2),
@@ -3646,7 +3644,7 @@ html.remodal-is-locked {
   line-height: 1.59091;
   margin-top: 0.4em;
   -webkit-font-feature-settings: "palt";
-          font-feature-settings: "palt";
+  font-feature-settings: "palt";
 }
 
 .p-flow_role + .p-flow_title {
@@ -3657,7 +3655,7 @@ html.remodal-is-locked {
   font-size: 15px;
   font-size: 0.9375rem;
   -webkit-font-feature-settings: "palt";
-          font-feature-settings: "palt";
+  font-feature-settings: "palt";
   letter-spacing: 0.1em;
   margin-top: 1.2em;
 }
@@ -4382,7 +4380,7 @@ p + .p-form_btn {
   font-size: 15px;
   margin-top: 0.6em;
   -webkit-font-feature-settings: "palt";
-          font-feature-settings: "palt";
+  font-feature-settings: "palt";
   letter-spacing: 0.12em;
 }
 
