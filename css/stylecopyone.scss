@@ -4,7 +4,7 @@
     overflow: hidden;
     // white-space: nowrap;
 }
-
+@import "./fonts";
 
 /* ===============================================
 for bem
@@ -105,6 +105,7 @@ body {
     overflow-wrap: break-word;
     position: relative;
     -webkit-text-size-adjust: none;
+    font-family: "IRANSans";
 }
 
 * {
@@ -213,7 +214,6 @@ table {
     border-spacing: 0;
 }
 
-br {}
 
 hr {
     border: 0 none;
@@ -314,8 +314,7 @@ font-face定義例
 =============================================== */
 
 body {
-    // font-family: "ヒラギノ角ゴ Pro W3", "HiraginoSans-W3", "Hiragino Kaku Gothic ProN", sans-serif;
-    -webkit-font-smoothing: antialiased;
+    font-family: "IRANSans";    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
@@ -348,13 +347,11 @@ mixinの指定例
 .p-pointsBox_title,
 .p-pointsBox_list,
 .p-titleReason_title {
-    // font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
-    font-weight: 500;
+    font-family: "IRANSans";    font-weight: 500;
 }
 
 .font-yu_mincho {
-    // font-family: YuMincho, "Yu Mincho", "游明朝体", "游明朝", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
-}
+    font-family: "IRANSans";}
 
 .font-shuei,
 .p-card_anchorNum,
@@ -2911,7 +2908,8 @@ html.remodal-is-locked {
 }
 
 .p-divider {
-    background: url(../image/869568.jpg);
+    // background: url(../image/869568.jpg);
+    background-image: url(../image/landing-bg.png), linear-gradient(44deg, #009eb3 0%, #018c9f 100%) !important;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -3008,10 +3006,10 @@ html.remodal-is-locked {
     background-size: cover;
 }
 
-.p-dividerImg.mod-hero05 {
-    background: url("../../images/bun-ken/hero_section05_sp.jpg") center no-repeat;
-    background-size: cover;
-}
+// .p-dividerImg.mod-hero05 {
+//     background: url("../../images/bun-ken/hero_section05_sp.jpg") center no-repeat;
+//     background-size: cover;
+// }
 
 .p-dividerImg.mod-hero05 {
     position: relative;
@@ -3025,7 +3023,9 @@ html.remodal-is-locked {
     display: block;
     width: 100%;
     height: 100%;
-    background-image: url(../image/landing-bg.png), linear-gradient(44deg, #009eb3 0%, #018c9f 100%) !important;
+    background: url(../image/869568.jpg) no-repeat;
+    background-size: cover;
+    // background-image: url(../image/landing-bg.png), linear-gradient(44deg, #009eb3 0%, #018c9f 100%) !important;
     z-index: 1;
 }
 
@@ -3037,20 +3037,20 @@ html.remodal-is-locked {
     position: absolute;
     width: 100%;
     text-align: center;
-    color: #ffffff;
+    color: #002286;
     top: 50%;
     -webkit-transform: translate(0%, -50%);
     transform: translate(0%, -50%);
     font-size: 17px;
     font-size: 1.0625rem;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.88235;
     padding: 0 20px;
 }
 
 @media (min-width: 480px) {
     .p-dividerImg_text {
-        font-size: 18px;
+        font-size: 28px;
         font-size: 1.125rem;
     }
 }
@@ -3076,7 +3076,7 @@ html.remodal-is-locked {
     .p-dividerImg.mod-hero05 .p-dividerImg_text {
         padding-left: 0;
         padding-right: 0;
-        font-size: 20px;
+        font-size: 78px;
     }
     .p-sectionHome.mod-05 .c-checkList_item.mod-large {
         font-size: 20px !important;
@@ -3088,7 +3088,8 @@ html.remodal-is-locked {
         font-size: 23px !important;
     }
     .p-dividerImg.mod-hero05 .p-dividerImg_text {
-        font-size: 24px;
+        font-size: 40px;
+        opacity: 0.4;
     }
 }
 
