@@ -2,8 +2,6 @@
 .text_indent_none {
   display: block;
   overflow: hidden;
-  text-indent: 200%;
-  white-space: nowrap;
 }
 
 /* ===============================================
@@ -151,6 +149,8 @@ a img {
 a:hover {
   color: #0270c9;
   text-decoration: none;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 button:focus {
@@ -201,10 +201,6 @@ del {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-br {
-  letter-spacing: 0;
 }
 
 hr {
@@ -302,7 +298,6 @@ main {
 font-face定義例
 =============================================== */
 body {
-  font-family: "ヒラギノ角ゴ Pro W3", "HiraginoSans-W3", "Hiragino Kaku Gothic ProN", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -334,16 +329,7 @@ mixinの指定例
 .p-pointsBox_title,
 .p-pointsBox_list,
 .p-titleReason_title {
-  font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
   font-weight: 500;
-}
-
-.font-yu_mincho {
-  font-family: YuMincho, "Yu Mincho", "游明朝体", "游明朝", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", serif;
-}
-
-.font-opensans {
-  font-family: "Open Sans", sans-serif;
 }
 
 .font-shuei,
@@ -358,7 +344,6 @@ mixinの指定例
 .p-staffList_role,
 .p-staffList_name,
 .p-titleReason_num {
-  font-family: dnp-shuei-mincho-pr6n, sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -372,7 +357,6 @@ mixinの指定例
 .p-interviewMovie_title,
 .p-interviewMv_credit,
 .p-interviewMv_authorEng {
-  font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 300;
 }
@@ -491,7 +475,6 @@ mixinの指定例
 .remodal-close::before {
   content: "\00d7";
   display: block;
-  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
   font-size: 25px;
   left: 0;
   line-height: 35px;
@@ -788,8 +771,6 @@ html.remodal-is-locked {
 .l-globalFooter_logo {
   display: block;
   overflow: hidden;
-  text-indent: 200%;
-  white-space: nowrap;
   background: url(../image/logo_ssh.png) center no-repeat;
   background-size: 8vh;
   width: 7vw;
@@ -864,8 +845,6 @@ html.remodal-is-locked {
 .l-globalHeader_logo a {
   display: block;
   overflow: hidden;
-  text-indent: 200%;
-  white-space: nowrap;
   background: url(../image/logo_ssh.png) center no-repeat;
   background-size: 6vh;
   width: 7vw;
@@ -973,6 +952,8 @@ html.remodal-is-locked {
   .l-globalHeader_login a:hover {
     background: #002286;
     color: #fff;
+    -webkit-transition-duration: 1s;
+            transition-duration: 1s;
   }
   .l-globalHeader_start a {
     padding: 0 8px;
@@ -1173,7 +1154,6 @@ html.remodal-is-locked {
 .c-box_remark {
   margin-top: 0.8em;
   line-height: 1.57143;
-  letter-spacing: 0;
   opacity: 0.6;
 }
 
@@ -1222,7 +1202,6 @@ html.remodal-is-locked {
   position: relative;
   top: -0.6em;
   text-align: right;
-  letter-spacing: -0.01em;
 }
 
 @media (min-width: 768px) {
@@ -1253,7 +1232,6 @@ html.remodal-is-locked {
   .c-box_tableRemark {
     position: relative;
     left: 7em;
-    letter-spacing: 0.05em;
   }
 }
 
@@ -1277,7 +1255,6 @@ html.remodal-is-locked {
   min-width: 290px;
   line-height: 1.2;
   position: relative;
-  letter-spacing: 0.1em;
   border-radius: 30px;
   overflow: hidden;
   z-index: 0;
@@ -1509,7 +1486,6 @@ html.remodal-is-locked {
 }
 
 .c-checkList {
-  letter-spacing: 0.05em;
   line-height: 1.94118;
 }
 
@@ -1519,7 +1495,6 @@ html.remodal-is-locked {
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.4;
-  letter-spacing: 0.075em;
   font-weight: 700;
 }
 
@@ -1591,7 +1566,6 @@ html.remodal-is-locked {
     padding-left: 40px;
     font-size: 20px;
     font-size: 1.25rem;
-    letter-spacing: 0.05;
   }
   .c-checkList_item:before {
     content: "";
@@ -1645,7 +1619,6 @@ html.remodal-is-locked {
 
 .c-engTitle {
   font-weight: 500;
-  letter-spacing: 0.1em;
   color: #d5a546;
   position: relative;
   z-index: 0;
@@ -1655,7 +1628,6 @@ html.remodal-is-locked {
   padding-right: 5px;
   font-weight: 700;
   font-size: 0.9em;
-  letter-spacing: 0.1em;
   color: #d5a546;
   position: relative;
   z-index: 0;
@@ -1850,7 +1822,6 @@ html.remodal-is-locked {
   line-height: 1.41667;
   position: relative;
   z-index: 1;
-  letter-spacing: 0.02em;
 }
 
 .c-titleLarge.mod-center {
@@ -1916,10 +1887,6 @@ html.remodal-is-locked {
   .c-totop a:hover {
     opacity: 0.7;
   }
-}
-
-.c-ul {
-  letter-spacing: 0.05em;
 }
 
 .c-ul.mod-disc {
@@ -1999,7 +1966,6 @@ html.remodal-is-locked {
   margin: 0 auto;
   font-size: 13px;
   font-size: 0.8125rem;
-  letter-spacing: 0.1em;
 }
 
 .p-breadcrumbs_inner a {
@@ -2138,7 +2104,6 @@ html.remodal-is-locked {
   font-size: 19px;
   font-size: 1.1875rem;
   font-weight: 600;
-  letter-spacing: 0.05em;
   line-height: 1.4;
   margin-top: 8px;
 }
@@ -2337,14 +2302,12 @@ html.remodal-is-locked {
     line-height: 1.5;
     -webkit-font-feature-settings: "palt";
     font-feature-settings: "palt";
-    letter-spacing: 0.01em;
   }
   .p-card_title {
     font-size: 22px;
     line-height: 1.4;
     -webkit-font-feature-settings: "palt";
     font-feature-settings: "palt";
-    letter-spacing: 0.05em;
   }
   .p-card_text {
     margin-bottom: 10px;
@@ -2803,7 +2766,6 @@ html.remodal-is-locked {
   margin-right: auto;
   font-size: 16px;
   font-size: 1rem;
-  letter-spacing: 0.05em;
   line-height: 2;
 }
 
@@ -2880,7 +2842,9 @@ html.remodal-is-locked {
 }
 
 .p-divider {
-  background: #002286;
+  background: url(../image/869568.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   padding: 30px 32px;
 }
@@ -2889,7 +2853,6 @@ html.remodal-is-locked {
   color: #fff;
   font-size: 16px;
   font-size: 1rem;
-  letter-spacing: 0.01em;
 }
 
 .p-divider_btnWrap {
@@ -2998,7 +2961,7 @@ html.remodal-is-locked {
 }
 
 .p-dividerImg.mod-hero05 .p-dividerImg_text {
-  z-index: 10;
+  z-index: 1;
 }
 
 .p-dividerImg_text {
@@ -3071,7 +3034,6 @@ html.remodal-is-locked {
   font-size: 15px;
   line-height: 1.5;
   color: #fff;
-  letter-spacing: 0.01em;
   font-weight: 700;
 }
 
@@ -3148,7 +3110,6 @@ html.remodal-is-locked {
   color: #fff;
   font-size: 16px;
   font-size: 1rem;
-  letter-spacing: 0.01em;
   font-weight: 700;
 }
 
@@ -3274,7 +3235,6 @@ html.remodal-is-locked {
   font-size: 12px;
   -webkit-font-feature-settings: "palt";
   font-feature-settings: "palt";
-  letter-spacing: 0.02em;
 }
 
 .interviewlist .p-entryList dl.p-card_text_dsc dt {
@@ -3383,7 +3343,6 @@ html.remodal-is-locked {
 
 .p-faqList_item_category {
   font-size: 20px;
-  letter-spacing: 0.075em;
   font-weight: 600;
   padding: 24px 50px 24px 0px;
   line-height: 1.4375;
@@ -3393,7 +3352,6 @@ html.remodal-is-locked {
   position: relative;
   font-size: 16px;
   font-size: 1rem;
-  letter-spacing: 0.075em;
   font-weight: 600;
   padding: 14px 50px 14px 40px;
   line-height: 1.4375;
@@ -3502,7 +3460,6 @@ html.remodal-is-locked {
   }
   .p-faqList_item_category {
     font-size: 23px;
-    letter-spacing: 0.075em;
     font-weight: 600;
     padding: 34px 50px 14px 0px;
     line-height: 1.4375;
@@ -3511,7 +3468,6 @@ html.remodal-is-locked {
     position: relative;
     font-size: 16px;
     font-size: 1rem;
-    letter-spacing: 0.075em;
     font-weight: 600;
     padding: 16px 80px;
     -webkit-transition: 0.3s;
@@ -3640,7 +3596,6 @@ html.remodal-is-locked {
   font-size: 18px;
   font-size: 1.125rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
   line-height: 1.59091;
   margin-top: 0.4em;
   -webkit-font-feature-settings: "palt";
@@ -3656,7 +3611,6 @@ html.remodal-is-locked {
   font-size: 0.9375rem;
   -webkit-font-feature-settings: "palt";
   font-feature-settings: "palt";
-  letter-spacing: 0.1em;
   margin-top: 1.2em;
 }
 
@@ -3705,7 +3659,6 @@ html.remodal-is-locked {
     font-weight: 600;
     padding-left: 5px;
     vertical-align: middle;
-    letter-spacing: 0.05em;
   }
   .p-flow_item {
     background: #ffffff;
@@ -3909,7 +3862,6 @@ html.remodal-is-locked {
   display: inline-block;
   font-size: 11px;
   font-size: 0.6875rem;
-  letter-spacing: 0.1em;
   margin-left: auto;
   position: absolute;
   right: 16px;
@@ -3935,7 +3887,6 @@ html.remodal-is-locked {
   margin-top: 1em;
   font-size: 14px;
   font-size: 0.875rem;
-  letter-spacing: 0.05em;
   line-height: 1.42857;
 }
 
@@ -3950,7 +3901,6 @@ html.remodal-is-locked {
   font-size: 14px;
   font-size: 0.875rem;
   color: #e2455a;
-  letter-spacing: 0.05em;
   line-height: 1.42857;
 }
 
@@ -4280,7 +4230,6 @@ p + .p-form_btn {
   }
   .p-gNav a {
     line-height: 1;
-    letter-spacing: 0.08em;
     position: relative;
   }
   .p-gNav a:after {
@@ -4352,7 +4301,6 @@ p + .p-form_btn {
 .p-heading_titleSerif {
   font-size: 30px;
   font-size: 1.875rem;
-  letter-spacing: 0.1em;
   text-align: center;
   line-height: 1.5;
   -webkit-font-feature-settings: "palt";
@@ -4381,7 +4329,6 @@ p + .p-form_btn {
   margin-top: 0.6em;
   -webkit-font-feature-settings: "palt";
   font-feature-settings: "palt";
-  letter-spacing: 0.12em;
 }
 
 .p-heading_text.mod-section01-01 {
@@ -4507,7 +4454,6 @@ p + .p-form_btn {
   font-size: 16px;
   font-size: 1rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
   line-height: 1.4;
   margin-top: 0px;
   text-align: left;
@@ -4516,7 +4462,6 @@ p + .p-form_btn {
 .p-iconCard_text {
   font-size: 12px;
   font-size: 0.75rem;
-  letter-spacing: 0.075em;
   margin-top: 1em;
   line-height: 1.4;
 }
@@ -4656,7 +4601,6 @@ p + .p-form_btn {
   font-size: 11px;
   font-size: 0.6875rem;
   font-weight: 500;
-  letter-spacing: 0em;
   line-height: 1.1;
   width: 50px;
 }
@@ -4750,7 +4694,6 @@ p + .p-form_btn {
   font-size: 16px;
   font-size: 1rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
   line-height: 1.4;
 }
 
@@ -4796,7 +4739,6 @@ p + .p-form_btn {
   color: #d5a546;
   font-size: 20px;
   font-size: 1.25rem;
-  letter-spacing: 0.1em;
   text-align: center;
 }
 
@@ -4829,7 +4771,6 @@ p + .p-form_btn {
     color: #d5a546;
     font-size: 30px;
     font-size: 1.875rem;
-    letter-spacing: 0.1em;
   }
   .p-interviewMovie_title + .p-interviewMovie_poster {
     margin-top: 35px;
@@ -5172,7 +5113,6 @@ p + .p-form_btn {
   margin-top: 8px;
   -webkit-font-feature-settings: "palt";
   font-feature-settings: "palt";
-  letter-spacing: 0.11em;
 }
 
 .p-message_content {
@@ -5187,7 +5127,6 @@ p + .p-form_btn {
 .p-message_text {
   margin-top: 70px;
   line-height: 2.23529;
-  letter-spacing: 0.05em;
   padding: 0 20px;
 }
 
@@ -5239,7 +5178,6 @@ p + .p-form_btn {
   .p-message_subtitle {
     font-size: 20px;
     font-size: 1.25rem;
-    letter-spacing: 0.1em;
     margin-left: 5px;
   }
   .p-message_title {
@@ -5298,7 +5236,6 @@ p + .p-form_btn {
   .p-message_subtitle {
     font-size: 20px;
     font-size: 1.25rem;
-    letter-spacing: 0.1em;
     margin-left: 5px;
   }
 }
@@ -5374,8 +5311,6 @@ p + .p-form_btn {
   height: 108px;
   display: block;
   overflow: hidden;
-  text-indent: 200%;
-  white-space: nowrap;
   position: absolute;
   left: 0px;
   top: 39px;
@@ -5390,7 +5325,6 @@ p + .p-form_btn {
   line-height: 1.33333;
   font-weight: 600;
   text-align: center;
-  letter-spacing: 0.05em;
   width: 100%;
 }
 
@@ -5483,7 +5417,6 @@ p + .p-form_btn {
     font-weight: 500;
     margin-top: 13px;
     line-height: 1;
-    letter-spacing: 0;
     width: 380px;
   }
   .p-mvHome_text:before,
@@ -5710,7 +5643,6 @@ p + .p-form_btn {
   position: relative;
   font-size: 14px;
   font-size: 0.875rem;
-  letter-spacing: 0.075em;
   padding: 16px 0px 0;
   color: #979594;
 }
@@ -5781,7 +5713,6 @@ p + .p-form_btn {
   margin-right: auto;
   font-size: 16px;
   font-size: 1rem;
-  letter-spacing: 0.05em;
   line-height: 2;
 }
 
@@ -6113,7 +6044,6 @@ p + .p-form_btn {
   text-align: center;
   font-weight: 700;
   color: #1f1e1f;
-  letter-spacing: 0.075em;
   line-height: 1.65517;
   margin-top: 10px;
   -webkit-font-feature-settings: "palt";
@@ -6123,12 +6053,10 @@ p + .p-form_btn {
 .p-pageHeader_title.mod-shuei {
   -webkit-font-feature-settings: "palt";
   font-feature-settings: "palt";
-  letter-spacing: 0.11em;
 }
 
 .p-pageHeader_title.mod-large {
   font-size: 31px;
-  letter-spacing: 0.12em;
 }
 
 .p-pageHeader_title.mod-large small {
@@ -6168,7 +6096,6 @@ p + .p-form_btn {
 .p-pageHeader_text p {
   font-size: 16px;
   font-size: 1rem;
-  letter-spacing: 0.075em;
 }
 
 .p-pageHeader_text p + * {
@@ -6204,7 +6131,6 @@ p + .p-form_btn {
   }
   .p-pageHeader_inner.mod-reason .p-pageHeader_title {
     font-size: 48px;
-    letter-spacing: 0.1em;
     -webkit-font-feature-settings: "palt";
     font-feature-settings: "palt";
   }
@@ -6271,7 +6197,6 @@ p + .p-form_btn {
   .p-pageHeader_title.mod-large {
     font-size: 57px;
     font-size: 3.5625rem;
-    letter-spacing: 0.12em;
   }
   .p-pageHeader_title.mod-large small {
     font-size: 53px;
@@ -6344,7 +6269,6 @@ p + .p-form_btn {
 .p-pointsBox_title {
   font-size: 24px;
   font-size: 1.5rem;
-  letter-spacing: 0.1em;
   text-align: center;
   font-weight: 700;
   line-height: 1.4;
@@ -6674,7 +6598,6 @@ p + .p-form_btn {
   .p-roundThumbs_item.mod-sp-landscape .p-roundThumbs_title {
     text-align: center;
     font-size: 17px;
-    letter-spacing: 0;
   }
   .p-roundThumbs_item.mod-flow + .p-roundThumbs_item.mod-flow,
   .p-roundThumbs_item.mod-sp-landscape + .p-roundThumbs_item.mod-flow,
@@ -6741,7 +6664,6 @@ p + .p-form_btn {
     font-size: 20px;
     font-size: 1.25rem;
     margin-top: 15px;
-    letter-spacing: 0.05em;
   }
   .p-roundThumbs_title.mod-small {
     font-size: 17px;
@@ -6749,7 +6671,6 @@ p + .p-form_btn {
   }
   .p-roundThumbs_text {
     margin-top: 5px;
-    letter-spacing: 0.05em;
     font-size: 15px;
     font-size: 0.9375rem;
   }
@@ -6909,8 +6830,6 @@ p + .p-form_btn {
 .p-snsNav_tw {
   display: block;
   overflow: hidden;
-  text-indent: 200%;
-  white-space: nowrap;
   background: url("../../images/bun-ken/icon_twitter.png") center no-repeat;
   background-size: 30px 24px;
   width: 30px;
@@ -6920,8 +6839,6 @@ p + .p-form_btn {
 .p-snsNav_fb {
   display: block;
   overflow: hidden;
-  text-indent: 200%;
-  white-space: nowrap;
   background: url("../../images/bun-ken/icon_facebook.png") center no-repeat;
   background-size: 34px 34px;
   width: 34px;
@@ -6931,8 +6848,6 @@ p + .p-form_btn {
 .p-snsNav_ig {
   display: block;
   overflow: hidden;
-  text-indent: 200%;
-  white-space: nowrap;
   background: url("../../images/bun-ken/icon_instagram.png") center no-repeat;
   background-size: 33px 33px;
   width: 33px;
@@ -6949,13 +6864,15 @@ p + .p-form_btn {
 }
 
 .p-spnavi {
-  background: #101010;
-  height: 100%;
-  position: fixed;
-  width: 100%;
+  direction: rtl;
+  background: #4e4949;
+  height: 76vh;
+  position: absolute;
+  width: 55%;
   display: none;
   z-index: 5;
-  top: 0;
+  top: 51px;
+  right: 0;
 }
 
 .p-spnavi_btnWrap {
@@ -7204,7 +7121,6 @@ p + .p-form_btn {
   background: #e9eff4;
   font-weight: 600;
   padding: 10px 5px;
-  letter-spacing: 0.01em;
   vertical-align: middle;
   line-height: 1.1;
   border: 1px solid #d5e0e9;
@@ -7347,7 +7263,6 @@ p + .p-form_btn {
   }
   .p-table.mod-plan th {
     padding: 26px 0;
-    letter-spacing: 0.01em;
     font-size: 18px;
     font-size: 1.125rem;
   }
@@ -7374,11 +7289,9 @@ p + .p-form_btn {
     font-size: 12px;
     font-size: 0.75rem;
     padding: 10px 0;
-    letter-spacing: 0;
     font-weight: 400;
   }
   .p-table.mod-plan td {
-    letter-spacing: 0;
     font-size: 18px;
     font-size: 1.125rem;
     padding: 0;
@@ -7534,7 +7447,6 @@ p + .p-form_btn {
   font-size: 14px;
   font-size: 0.875rem;
   line-height: 1.79;
-  letter-spacing: 0;
   position: relative;
   z-index: 0;
 }
@@ -7878,13 +7790,11 @@ p + .p-form_btn {
 .note {
   display: block;
   padding-left: 1em;
-  text-indent: -1em;
 }
 
 .note2 {
   display: block;
   padding-left: 2em;
-  text-indent: -2em;
 }
 
 /*必須項目・警告・エラーの文字色*/
@@ -9608,7 +9518,6 @@ p + .p-form_btn {
 .icon_beginner::before,
 .icon_share::before,
 .icon_tel::before {
-  font-family: 'keni8-icons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -9724,7 +9633,6 @@ p + .p-form_btn {
 .icon_arrow_s_right::before,
 .icon_arrow_s_down::before,
 .icon_arrow_s_left::before {
-  font-family: 'keni8-icons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
