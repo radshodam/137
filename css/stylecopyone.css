@@ -885,8 +885,7 @@ html.remodal-is-locked {
 }
 
 .l-globalHeader_logo {
-  margin-right: auto;
-  padding-left: 17px;
+  padding-right: 17px;
 }
 
 .l-globalHeader_logo a {
@@ -965,10 +964,6 @@ html.remodal-is-locked {
 @media (min-width: 768px) {
   .l-globalHeader {
     height: 70px;
-  }
-  .l-globalHeader_logo {
-    margin-right: auto;
-    padding-left: 22px;
   }
   .l-globalHeader_logo a {
     background: url(../image/logo_ssh.png) no-repeat;
@@ -4207,7 +4202,7 @@ p + .p-form_btn {
 
 .p-spnavi .p-gNav {
   display: block;
-  padding: 100px 30px 0px;
+  padding: 18px 30px 0px;
 }
 
 .p-spnavi .p-gNav_list {
@@ -6916,7 +6911,7 @@ p + .p-form_btn {
   display: none;
   z-index: 5;
   top: 51px;
-  right: 0;
+  left: 0;
 }
 
 .p-spnavi_btnWrap {

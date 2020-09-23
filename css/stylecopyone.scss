@@ -4,6 +4,7 @@
     overflow: hidden;
     // white-space: nowrap;
 }
+
 @import "./fonts";
 
 /* ===============================================
@@ -214,7 +215,6 @@ table {
     border-spacing: 0;
 }
 
-
 hr {
     border: 0 none;
     height: 0;
@@ -314,7 +314,8 @@ font-face定義例
 =============================================== */
 
 body {
-    font-family: "IRANSans";    -webkit-font-smoothing: antialiased;
+    font-family: "IRANSans";
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
@@ -347,11 +348,13 @@ mixinの指定例
 .p-pointsBox_title,
 .p-pointsBox_list,
 .p-titleReason_title {
-    font-family: "IRANSans";    font-weight: 500;
+    font-family: "IRANSans";
+    font-weight: 500;
 }
 
 .font-yu_mincho {
-    font-family: "IRANSans";}
+    font-family: "IRANSans";
+}
 
 .font-shuei,
 .p-card_anchorNum,
@@ -905,8 +908,7 @@ html.remodal-is-locked {
 }
 
 .l-globalHeader_logo {
-    margin-right: auto;
-    padding-left: 17px;
+    padding-right: 17px;
 }
 
 .l-globalHeader_logo a {
@@ -987,8 +989,7 @@ html.remodal-is-locked {
         height: 70px;
     }
     .l-globalHeader_logo {
-        margin-right: auto;
-        padding-left: 22px;
+        // padding-left: 22px;
     }
     .l-globalHeader_logo a {
         background: url(../image/logo_ssh.png) no-repeat;
@@ -3010,7 +3011,6 @@ html.remodal-is-locked {
 //     background: url("../../images/bun-ken/hero_section05_sp.jpg") center no-repeat;
 //     background-size: cover;
 // }
-
 .p-dividerImg.mod-hero05 {
     position: relative;
 }
@@ -4233,7 +4233,7 @@ p+.p-form_btn {
 
 .p-spnavi .p-gNav {
     display: block;
-    padding: 100px 30px 0px;
+    padding: 18px 30px 0px;
 }
 
 .p-spnavi .p-gNav_list {
@@ -6944,7 +6944,7 @@ p+.p-form_btn {
     display: none;
     z-index: 5;
     top: 51px;
-    right: 0;
+    left: 0;
 }
 
 .p-spnavi_btnWrap {
