@@ -885,7 +885,7 @@ html.remodal-is-locked {
 }
 
 .l-globalHeader_logo {
-  padding-left: 17px;
+  padding-right: 17px;
 }
 
 .l-globalHeader_logo a {
@@ -6905,7 +6905,6 @@ p + .p-form_btn {
 .p-spnavi {
   direction: rtl;
   background: #4e4949;
-  height: 76vh;
   position: absolute;
   width: 55%;
   display: none;
